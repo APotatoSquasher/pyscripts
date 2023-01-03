@@ -19,5 +19,6 @@ while question != secretnumber:
             print(f"Congrats! The final number was {secretnumber}!")
             break
     except ValueError:
-        print("Please enter an integer")
+        print("Please enter an integer that has no decimals.")
+        
 
